@@ -35,3 +35,16 @@ Backing up config for 172.28.87.45.
 Config uploaded to 172.28.87.10.
 All done, bye.
 ```
+
+# Usage 3 - Use SSH keyfile
+
+```
+$ python backup_ios.py --upload 172.28.87.10 --identity bbartik
+Enter identity file (Ex: '~/.ssh/id_rsa'): ~/.ssh/bbartik
+Error creating './configs' directory, it may already exist.
+Backing up config for 172.28.87.45.
+Authentication failed for 172.28.87.45...skipping.
+Backing up config for 172.28.87.44.
+Config uploaded to 172.28.87.10.
+All done, bye.
+```
