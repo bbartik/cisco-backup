@@ -1,6 +1,6 @@
 # Overview
 
-This tool will save configs locally and optionally upload them to a TFTP server.
+This tool will save configs locally and optionally upload them to a TFTP server. Put your device IPs or hostnames in devices.txt.
 
 # Setup
 
