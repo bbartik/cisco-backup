@@ -5,7 +5,7 @@ This tool will save configs locally and optionally upload them to a TFTP server.
 # Setup
 
 ```
-https://github.com/bbartik/cisco-backup.git
+git clone https://github.com/bbartik/cisco-backup.git
 cd cisco-backup
 virtualenv .venv
 pip install -r requirements
